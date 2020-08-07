@@ -118,7 +118,7 @@ The example output would look like:
 
 
 ```
-Request: {:POST, "/put", %{"key" => "key1", "value" => "value1"}}
+          Request: {:POST, "/put", %{"key" => "key1", "value" => "value1"}}
           Number of requests: 5
           Responses: ["ok", "ok", "ok", "ok", "ok"]
           Total execution time: 36.218 ms
