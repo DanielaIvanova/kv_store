@@ -20,7 +20,6 @@ defmodule KvStore.Supervisor do
     children = [
       KvStoreWeb.Endpoint,
       KvStore.Manager,
-      KvStore.Store,
       {KvStore.UdpServer, udp_port_server}
     ]
 
